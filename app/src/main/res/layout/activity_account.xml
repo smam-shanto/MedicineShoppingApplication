@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="97dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="93dp"
+        android:layout_marginLeft="44dp"
+        app:srcCompat="@mipmap/ic_launcher_round"
+        android:onClick="true"
+        tools:ignore="OnClick" />
+
+    <TextView
+        android:id="@+id/profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="71dp"
+        android:hint="My Profile"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="73dp"
+         />
+
+    <TextView
+        android:id="@+id/accname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="160dp"
+        android:hint="your name"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="188dp"
+         />
+
+    <TextView
+        android:id="@+id/accemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="289dp"
+        android:hint="your email"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="239dp"
+         />
+
+    <TextView
+        android:id="@+id/accphon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="333dp"
+        android:layout_marginLeft="160dp"
+        android:hint="your phone number"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="299dp"
+        />
+</RelativeLayout>

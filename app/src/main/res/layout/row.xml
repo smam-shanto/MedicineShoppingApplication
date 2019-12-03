@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="130dp"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="1dp"
+    app:cardBackgroundColor="#FFFFFF"
+    android:layout_margin="2dp"
+    app:cardElevation="3dp"
+    app:contentPadding="5dp"
+    app:cardUseCompatPadding="true"
+    >
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="109dp"
+        android:id="@+id/image01"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/title01"
+            android:text="title"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:layout_marginTop="115dp"
+            android:layout_marginLeft="13dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/generic01"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="13dp"
+            android:text="ddddddd"
+            android:textColor="#869190"
+            android:textStyle="bold"
+            android:textSize="11dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/type01"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="13dp"
+            android:text="jhgsghf"
+            android:textColor="#1C233D"
+            android:textStyle="bold"
+            android:textSize="11dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/description01"
+            android:layout_marginTop="9dp"
+            android:layout_marginLeft="13dp"
+            android:text="kcbbvbnn"
+            android:textColor="#009688"
+            android:textSize="12dp"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

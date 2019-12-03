@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relativelayout"
+    android:background="#009688"
+    android:minHeight="181dp"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="129dp"
+        app:srcCompat="@drawable/userphoto" />
+
+
+
+    <EditText
+        android:id="@+id/logemail"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:background="#000000"
+        android:ems="10"
+        android:layout_marginTop="285dp"
+        android:layout_marginLeft="79dp"
+        android:inputType="textPersonName"
+        android:hint=" email"
+        android:textColorHint="#AAA5A5"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="300dp" />
+
+
+    <EditText
+        android:id="@+id/logpass"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:background="#000000"
+        android:ems="10"
+        android:layout_marginTop="333dp"
+        android:layout_marginLeft="79dp"
+        android:hint=" ******"
+        android:textColorHint="#AAA5A5"
+        android:textColor="#FFFFFF"
+        android:inputType="textPersonName|textPassword"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="451dp" />
+
+    <Button
+        android:id="@+id/logbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:text="Log In"
+        android:textColor="#FFFFFF"
+        android:background="#F44336"
+        android:layout_marginTop="419dp"
+        android:layout_marginLeft="139dp"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="560dp" />
+
+    <ProgressBar
+        android:id="@+id/logprob"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="159dp"
+        android:layout_marginTop="542dp"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="181dp"
+        tools:layout_editor_absoluteY="560dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logtext"
+        android:textSize="14dp"
+        android:textColor="#FFFFFF"
+        android:text=" Create Account ?"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="219dp"/>
+
+</RelativeLayout>
